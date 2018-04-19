@@ -8,6 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh 'make' (1)
                 echo 'Building..'
             }
         }
