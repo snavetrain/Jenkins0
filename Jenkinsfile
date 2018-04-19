@@ -1,5 +1,5 @@
 node {
-    checkout scm (1)
+    checkout scm 
     https://github.com/snavetrain/API-Project.git
 }
 pipeline {
