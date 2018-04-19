@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 node {
     dir('RepoOne') {
         git url: 'https://github.com/snavetrain/API-Project.git'
