@@ -1,3 +1,7 @@
+node {
+    checkout scm (1)
+    https://github.com/snavetrain/API-Project.git
+}
 pipeline {
     agent any
 
