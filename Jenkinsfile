@@ -1,10 +1,10 @@
 #!/usr/bin/env groovy
 node {
-    dir('RepoOne') {
+    dir('API-Project') {
         git url: 'https://github.com/snavetrain/API-Project'
     }
 
-    sh('. RepoOne/build.sh')
+    sh('. API-Project/build.sh')
 }
 pipeline {
     agent any
