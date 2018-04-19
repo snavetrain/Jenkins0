@@ -1,7 +1,10 @@
 node {
-    checkout scm 
-    https://github.com/snavetrain/API-Project.git
+    dir('RepoOne') {
+        git url: 'https://github.com/snavetrain/API-Project.git'
     }
+
+    sh('. RepoOne/build.sh')
+}
 pipeline {
     agent any
 
