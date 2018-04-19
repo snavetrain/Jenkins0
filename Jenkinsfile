@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 node {
     dir('RepoOne') {
-        git url: 'https://github.com/snavetrain/API-Project.git'
+        git url: 'https://github.com/snavetrain/API-Project'
     }
 
     sh('. RepoOne/build.sh')
